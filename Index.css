@@ -1,0 +1,65 @@
+html {
+    height: 100vh;
+    margin: 0rem;
+    padding: 0rem;
+    color-scheme: dark;
+}
+
+body {
+    background: #EEEEEE;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    color: #ffffff;
+    background: gray;
+    border: 0 solid transparent;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+    color: cyan;
+}
+
+label {
+    color: #ffffff;
+    background: gray;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+input {
+    color: #ffffff;
+    background: gray;
+    border: 0 solid transparent;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button {
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#LIST {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#LIST input {
+    background: #454545;
+    margin-bottom: 1rem;
+    text-align: center;
+}
